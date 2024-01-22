@@ -18,5 +18,5 @@ step 4 : `start ionic server` :`ionic serve`
 
 ## Developed by
 
-Jainam Darji
-email : jainamdarji194@gmail.com
+<p>Jainam Darji</p><br>
+email :  <a href="mailto:jainamdarji194@gmail.com">jainamdarji194@gmail.com</a>
