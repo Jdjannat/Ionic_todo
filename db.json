@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Demo",
+      "email": "demo@gmail.com",
+      "mobile": "857799635",
+      "gender": "male",
+      "address": "Shilp Corporate Park, B - 1009 to 1014, behind Rajpath Rangoli Road, Bodakdev, Ahmedabad, Gujarat 380054",
+      "id": "74d5"
+    },
+    {
+      "id": "a8f3",
+      "name": "aa",
+      "email": "aa@gmail.com",
+      "mobile": "6699335566",
+      "gender": "female",
+      "address": "aaa"
+    },
+    {
+      "id": "3505",
+      "name": "Jainam ",
+      "email": "jainam123@gmail.com",
+      "mobile": "74879635996",
+      "gender": "male",
+      "address": "sswdfhboewqufgbjhbclqwefc"
+    },
+    {
+      "id": "dd71",
+      "name": "test",
+      "email": "test@gmail.com",
+      "mobile": "78999999",
+      "gender": "female",
+      "address": "qasdqdewsdc"
+    }
+  ]
+}

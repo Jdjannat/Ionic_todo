@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Edit User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="custom-card">
+    <ion-card-header>
+      <ion-card-title>Edit User Details</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <form [formGroup]="editForm" (ngSubmit)="onSubmit(user.id, editForm.value)">
+        <ion-item>
+          <ion-label position="floating">Name</ion-label>
+          <ion-input formControlName="name" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input formControlName="email" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Mobile</ion-label>
+          <ion-input formControlName="mobile" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Gender</ion-label>
+          <ion-select formControlName="gender">
+            <ion-select-option value="male">Male</ion-select-option>
+            <ion-select-option value="female">Female</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Address</ion-label>
+          <ion-input formControlName="address" ></ion-input>
+        </ion-item>
+
+        <ion-button type="submit" expand="full">Update User</ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

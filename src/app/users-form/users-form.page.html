@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Users Form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Users Form</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-card-content>
+  <form [formGroup]="userForm" (ngSubmit)="submitForm()">
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input formControlName="name" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input formControlName="email" type="email" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Mobile Number</ion-label>
+      <ion-input formControlName="mobile" type="tel" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Select Gender</ion-label>
+      <ion-select formControlName="gender" placeholder="Select gender" required>
+        <ion-select-option value="male">Male</ion-select-option>
+        <ion-select-option value="female">Female</ion-select-option>
+        <ion-select-option value="transgender">Transgender</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-textarea formControlName="address" required></ion-textarea>
+    </ion-item>
+
+    <ion-button expand="full" type="submit">Submit</ion-button>
+  </form>
+</ion-card-content>
+
+</ion-content>
