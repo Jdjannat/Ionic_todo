@@ -16,3 +16,7 @@ step 3 : `start json fake server` : `json-server --watch db.json`
 step 4 : `start ionic server` :`ionic serve`
 
 
+## Developed by
+
+Jainam Darji
+email : jainamdarji194@gmail.com
